@@ -18,7 +18,8 @@
         "server": {
             "generate": {
                 "appweb": "esp-server/appweb.conf",
-            }
+            },
+            "routes": "esp-server",
         },
         "mode": "debug",
         "modes": {
