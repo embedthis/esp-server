@@ -2,6 +2,7 @@
     "name": "esp-server",
     "description": "ESP Server-Side Configuration",
     "version": "5.3.0",
+    "pak": ">=0.10",
     "licenses": [
         {
             "type": "GPL",
@@ -12,16 +13,13 @@
         }
     ],
     "keywords": [
-        "esp",
+        "esp"
     ],
-    "app": {
-        "esp": {
-            "generate": {
-                "?appweb": "esp-server/generate/appweb.conf",
-            },
-        },
-        "http": {
-            "?routes": "esp-server",
-        },
-    },
+    "blend": [
+        "esp.json"
+    ],
+    "mode": "debug",
+    "export": [
+        {  "from": "public/**",   "to": "${TOP}/", "overwrite": false }
+    ]
 }
