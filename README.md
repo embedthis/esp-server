@@ -11,9 +11,11 @@ Pak for basic ESP applications.
 
 #### Description
 
-The esp-server pak provides the lowest level of ESP application support. It provides a basic esp.json ESP configuration file and the ability to generate Appweb hosting configuration files.
+The esp-server pak provides the lowest level of ESP application support. It provides a basic esp.json ESP configuration 
+file and the ability to generate Appweb hosting configuration files.
 
-The esp.json configuration file defines the esp-server route set that creates a simple controller/action route. Run ````esp -s```` to display the route table. 
+The esp.json configuration file defines the esp-server route set that creates a simple controller/action route. 
+Run ````esp -s```` to display the route table. 
 
 
 #### Generate Targets

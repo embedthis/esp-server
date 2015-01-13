@@ -17,9 +17,5 @@
     ],
     "blend": [
         "esp.json"
-    ],
-    "mode": "debug",
-    "export": [
-        {  "from": "public/**",   "to": "${TOP}/", "overwrite": false }
     ]
 }
